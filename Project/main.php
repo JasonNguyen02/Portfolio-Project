@@ -23,13 +23,7 @@ mysqli_close($conn);
 ?>
 
 <body>
-<?php
-function category($outfit){ 
-    $outfit = $outfit + ".php";
-    ?>
-
-
-<a href=<?php category(shirt)?> class='category'>Shirts</a>
+<a href="shirt.php" class='category'>Shirts</a>
 <br>
 <a href="hoodie.php" class='category'>Hoodies</a>
 <br>
